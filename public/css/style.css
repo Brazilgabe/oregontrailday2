@@ -1,0 +1,113 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("http://www.wildtextures.com/wp-content/uploads/2011/10/wildtextures-old-wood-original-file.jpg");
+  text-align: center;
+  font-family: 'Rye';
+  color: #acacac;
+  font-size: 17px;
+}
+
+.homeImg {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.sickMessage {
+  margin-top: 50px;
+}
+
+.homeButton {
+  margin-top: 15px;
+  color: blue;
+}
+
+.homeNavigation {
+  height: 100px;
+}
+
+.homeNavigationFont {
+  font-size: 40px;
+  padding-top: 35px;
+}
+
+.nameFields {
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.travelerSubmit {
+  color: blue;
+  margin-left: 15px;
+}
+
+.container {
+  background-color: rgba(28, 18, 14, .9);
+  height: 100%;
+}
+
+.playerStatus {
+  padding-top: auto;
+  margin-top: -120px;
+}
+
+.supplyMessage {
+  margin-top: 130px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #acacac;
+}
+
+.expedition {
+  margin-bottom: 30px;
+  color: blue;
+}
+
+.locationImage {
+  width: 800px;
+  height: 300px;
+}
+
+table {
+  border: 2px solid white;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topTable {
+  margin-top: 10px;
+}
+
+.bottomTable {
+  margin-bottom: 50px;
+}
+
+tr {
+  border: 1px solid white;
+}
+
+td {
+  border: 1px solid white;
+  text-align: left;
+  padding-left: 15px;
+  height: 25px;
+  font-family: sans-serif;
+}
+
+thead {
+  border: 1px solid white;
+}
+
+th {
+  border: 1px solid white;
+  padding-left: 15px;
+  /*text-align: center;*/
+  height: 35px;
+  width: 400px;
+}
+
+
+}

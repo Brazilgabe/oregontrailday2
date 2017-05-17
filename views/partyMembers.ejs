@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Name the travelers</title>
-  </head>
-  <body>
-    <form class="" action="/outset" method="post">
-      <% for (let i=1; i<= members; i++) {%>
-        <label>Traveler <%=i%>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <meta charset="utf-8">
+  <title>Name the travelers</title>
+</head>
+
+<body>
+  <form class="nameFields" action="/outset" method="post">
+    <% for (let i=1; i<= members; i++) {%>
+      <img src="https://img.clipartfest.com/69cfcd342b3e96166a1501309b261674_view-full-size-cowboy-hat-png-clipart_4000-2347.png" width="60px" alt="">
+      <label>Traveler <%=i%>
           <input type="text" name=<%="traveler"+i%> value="">
         </label>
-    <% } %>
-      <input type="submit" name="" value="Gather Supplies">
-    </form>
+      <% } %>
+        <input class="travelerSubmit" type="submit" name="" value="Gather Supplies">
+  </form>
 
+  <img src="https://img.clipartfest.com/e839f6034d71428f23daf726d70d7514_free-lasso-clipart-cowboy-with-lasso-clipart_800-1099.png" width="400px" alt="">
+  <img src="https://img.clipartfest.com/95a39713aa835566af1c7305bd503ad0_free-lasso-clipart-cowboy-with-lasso-clipart_800-1109.png" width="400px" alt="">
+</body>
 
-  </body>
 </html>
