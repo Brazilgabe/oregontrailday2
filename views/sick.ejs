@@ -9,7 +9,9 @@
 
 <body>
   <h1 class="sickMessage"> <%= game.recentlyFellIll.name %> has fallen ill!</h1>
-  <% include partials/game-status %>
+    <div class="playerSick">
+      <% include partials/game-status %>
+    </div>
     <a href="/turn"><button type="button" name="button">Continue</button></a>
 </body>
 

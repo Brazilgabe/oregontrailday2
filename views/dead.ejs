@@ -9,8 +9,10 @@
 </head>
 
 <body>
-  <h1 class="sickMessage"> <%= game.recentlyDeceased %> has died</h1>
-  <% include partials/game-status %>
+  <h1 class="supplyMessage"> <%= game.recentlyDeceased %> has died</h1>
+  <div class="playerSick">
+    <% include partials/game-status %>
+  </div>
     <a href="/turn"><button type="button" name="button">Continue</button></a>
 </body>
 

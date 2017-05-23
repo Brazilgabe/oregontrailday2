@@ -9,8 +9,10 @@
 </head>
 
 <body>
-  <h1><%= game.recentlyBroken %> has been damaged!</h1>
-  <% include partials/game-status %>
+  <h1 class="sickMessage"><%= game.recentlyBroken %> has been damaged!</h1>
+  <div class="playerSick">
+    <% include partials/game-status %>
+  </div>
     <a href="/turn"><button type="button" name="button">Continue</button></a>
 </body>
 

@@ -10,7 +10,9 @@
 
 <body>
   <h1 class="sickMessage"> <%= game.recentlyRecovered %> found a medical kit and was able to recover.</h1>
-  <% include partials/game-status %>
+    <div class="playerSick">
+      <% include partials/game-status %>
+    </div>
     <a href="/turn"><button type="button" name="button">Continue</button></a>
 </body>
 
